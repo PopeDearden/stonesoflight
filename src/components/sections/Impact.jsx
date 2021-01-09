@@ -13,11 +13,11 @@ function Impact() {
 <div className="Timeline">
 <main>
   <Zoom>
-  <p>We have given <b>$250,000</b> for impoverished children to receive an education!</p>
+  <p>Stones of Light Education Foundation has invested <b>$250,000</b> for impoverished children to receive an education!</p>
    <p><b>Thousands of hours</b> on the ground helping to improve the quality and scope of Guatemalan Education for those living in Extreme Poverty.</p>
-  <p><b>Created an alliance with Snow College</b>, the number one Junior college in the United States, with<b> 6 of our students attending</b>.</p>
+  <p><b>Created an alliance with Snow College</b>, the number one Junior college in the United States, with<b> a number of students graduated or currently working on their degrees!</b></p>
 <p><b>Opened a new school</b> in Chisec, Guatemala 2021.</p>
-<p>Stones Of Light Education Foundation continues to expand its horizons. There are exciting new opportunities, in today’s global environment, to improve the lives of children who are living in extreme poverty through education. By implementing new technologies and teaching techniques and expanding the availability of life altering educational opportunities to children living in remote locations in impoverished areas of the Guatemala and the world, <b>the future is filled with light and hope.</b></p>  
+<p>There are exciting new opportunities, in today’s global environment, to improve the lives of children who are living in extreme poverty through education.  <b>The future is filled with light and hope!</b></p>  
   </Zoom>
 </main>
 </div>
