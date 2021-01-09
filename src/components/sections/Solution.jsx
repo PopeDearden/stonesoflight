@@ -1,7 +1,9 @@
 import '../../App.scss'
+import Zoom from 'react-reveal/Zoom';
 
 function Solution() {
   return (
+        <Zoom cascade>
     <div className="Solution">
       <h1>Here's how you can make a difference!</h1>
       <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank" rel="noreferrer">
@@ -15,6 +17,8 @@ function Solution() {
       <h2>$275 will provide a full education package to a child in need:</h2>
 
       <div className="Row">
+
+  
         <div className="Card">
           <h2>$95</h2>
           <p>Pays for one child's education for an entire year!</p>
@@ -32,6 +36,7 @@ function Solution() {
         </div>
       </div>
     </div>
+        </Zoom>
   );
 }
 
