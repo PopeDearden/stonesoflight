@@ -11,9 +11,7 @@ function Home() {
     <div className="App">
         <Hero />
         <Mission />
-        <Mission />
-        <Mission />
-        {/* <Problem /> */}
+        <Problem />
         <Solution />
         <Impact />
         <Contact />

@@ -2,8 +2,7 @@ html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
+small, strong, sub, sup, var, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -94,14 +93,18 @@ input, select {
 }
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 .App{
   h1,h2,h3,h4,h5,h6{
     font-family: 'Abel', sans-serif;
+    line-height: 1.25;
   }
   p{
     font-family: 'Open Sans', sans-serif;
   }
-
+  max-width: 100vw;
+  max-width: 100vw;
+  overflow: hidden;
 }
 $normal-margin: 25px;
 $small-margin: 10px;
@@ -133,6 +136,9 @@ transform: translateY(0px);
 transform: translateX(0px);
   }
 }
+#bold{
+  color: $Orange;
+}
 .MobileMenu{
   display: none;
 }
@@ -144,11 +150,13 @@ transform: translateX(0px);
   background-image: url($Hero-Image);
   background-position: 0% 15%;
   min-width: 100vw;
-  min-height: 75vh;
+  max-width: 100vw;
+  min-height: 86vh;
+  overflow: hidden;
   background-size: cover;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  // align-items: center;
 }
 .HeroAction{
   color:white;
@@ -241,6 +249,8 @@ border: solid 2px $Orange;
 }
 .NavBar {
   min-width: 100vw;
+  max-width: 100vw;
+  overflow: hidden;
   background-color: white;
   min-height: 100px;
   color: $Dark-Teal;
@@ -263,21 +273,59 @@ border: solid 2px $Orange;
   }
 }
 .Mission{
+  max-width: 100vw;
   min-width: 100vw;
-  min-height: 100vh;
-  height: auto;
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   flex-wrap: wrap;
-  color: white;
-  background-color: $Dark-Teal;
+color: $Dark-Teal;
+  // background-color: white;
+  // background-image: linear-gradient(to bottom, $Orange, White);
   animation: .5s ease-in-out slideInLeft;
-  background-image: url('https://cdn.shopify.com/s/files/1/0040/3786/9638/files/NXL_7927.jpg?v=1592607859');
-  background-position: center right;
+}
+#BubbleImg{
+  width: 250px;
+  border-radius: 50%;
+  border: solid 10px #142a5a;
+  margin: $normal-margin;
+}
+#BubbleImgTwo{
+  width: 250px;
+  border-radius: 50%;
+  border: solid 10px 
+  #f0af73;
+  margin: $normal-margin;
+}
+#BubbleImgThree{
+  width: 250px;
+  border-radius: 50%;
+  border: solid 10px 
+  #08a6ab;
+  margin: $normal-margin;
+}
+.Bubble{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 325px;
+  height: inherit;
+  text-align: center;
+  margin: $small-margin;
 }
 .TextBox{
-  margin: $normal-margin;
-  width: 400px;
+  width: auto;
   h2{
     font-size: $Large-Font;
   }
+}
+.Arrow{
+  // display: none;
+  min-width: 75px;
+  min-height: 400px;
+  height: 100%;
+  background-image: url('https://cdn.shopify.com/s/files/1/0040/3786/9638/files/arrow.png?v=1610164283');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
