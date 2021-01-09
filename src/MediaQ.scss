@@ -1,6 +1,6 @@
 $normal-margin: 25px;
 $small-margin: 10px;
-$Huge-font: 50px;
+$Huge-font: 40px;
 $Large-Font: 25px;
 $Heading-Font: 20px;
 $Body-Font: 15px;
@@ -9,6 +9,9 @@ $Green: #4A6C2F;
 $Steel: #2E93B1;
 $Orange: #E67531;
 @media(max-width: 890px){
+  .Arrow{
+    display: none;
+  }
     .NavBar {
         // min-width: 100vw;
         // background-color: white;
@@ -66,5 +69,15 @@ $Orange: #E67531;
         }
         .Hero{
             align-items: flex-end;
+        }
+        .Solution{
+          h1{
+            line-height: 1;
+            padding-top:$normal-margin;
+            margin-bottom: $small-margin;
+          }
+          h2{
+            line-height: 1;
+          }
         }
 }

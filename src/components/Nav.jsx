@@ -8,7 +8,7 @@ export default function Nav() {
             <div className="NavBar">
                 <div className="LogoBox">
                     <img alt="logo" src="https://cdn.shopify.com/s/files/1/0040/3786/9638/files/only_stones_logo.png?v=1610147253" ></img>
-                    <h1>Stones of Light Education Foundation</h1>
+                    <h1>Stones of Light<br></br> Education Foundation</h1>
                 </div>
                 <div className="Menu">
                     <div className="NavButton">
@@ -20,9 +20,11 @@ export default function Nav() {
                     <div className="NavButton">
                         <h2>Your Impact</h2>
                     </div>
+                    <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank">
                     <div className="BigDonate">
                         <h2>Donate</h2>
                     </div>
+                    </a>
                 </div>
             </div>
             <div className="MobileMenu">
