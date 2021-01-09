@@ -1,0 +1,70 @@
+$normal-margin: 25px;
+$small-margin: 10px;
+$Huge-font: 50px;
+$Large-Font: 25px;
+$Heading-Font: 20px;
+$Body-Font: 15px;
+$Dark-Teal: #095F79;
+$Green: #4A6C2F;
+$Steel: #2E93B1;
+$Orange: #E67531;
+@media(max-width: 890px){
+    .NavBar {
+        // min-width: 100vw;
+        // background-color: white;
+        min-height: 50px;
+        color: $Dark-Teal;
+        display: flex;
+        justify-content: space-between;
+        img{
+          margin-top: $small-margin;
+          height: 60px;
+          margin-left: $normal-margin;
+          animation: .5s ease-in-out titleAnimation;
+          cursor: pointer;
+        }
+        img:hover{
+          transform: scale(1.01);
+        }
+        h1{
+          margin-left:$normal-margin;
+          font-size: $Body-Font;
+          animation: .5s ease-in-out titleAnimation;
+        }
+      }
+      .NavButton{
+          display: none;
+      }
+      .BigDonate{
+        h2{
+          font-size: $Large-Font;
+          width: 100%;
+          color: white;
+          text-align: center;
+        }
+      }
+      .MobileMenu{
+          display: flex;
+          justify-content: center;
+          background-color: $Dark-Teal;
+          color: white;
+        }
+        .MobileNav{
+            // border-right: solid 1px white;
+            h2{
+              font-size: $Body-Font;
+              margin: $small-margin;
+          }
+        }
+        .HeroAction{
+            margin-right: 0px;
+            max-width: 100vw;
+            min-width: 100vw;
+            h2{
+                font-size: $Large-Font;
+            }
+        }
+        .Hero{
+            align-items: flex-end;
+        }
+}
