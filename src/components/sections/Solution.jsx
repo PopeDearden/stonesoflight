@@ -4,7 +4,7 @@ function Solution() {
   return (
     <div className="Solution">
       <h1>Here's how you can make a difference!</h1>
-      <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank">
+      <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank" rel="noreferrer">
 
 <div className="DonateButton">
   <h2>

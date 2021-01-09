@@ -20,7 +20,7 @@ export default function Nav() {
                     <div className="NavButton">
                         <h2>Your Impact</h2>
                     </div>
-                    <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank">
+                    <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank" rel="noreferrer">
                     <div className="BigDonate">
                         <h2>Donate</h2>
                     </div>

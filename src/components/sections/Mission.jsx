@@ -11,7 +11,7 @@ function Mission() {
           <div className="TextBox">
             <h2><b id="highlight">Impoverished children in</b> rural <b id="highlight">Guatemala</b> don't have an opportunity to recieve an education...</h2>
           </div>
-          {/* <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank">
+          {/* <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank" rel="noreferrer">
 
             <div className="DonateButton">
               <h2>
@@ -27,7 +27,7 @@ function Mission() {
           <img id="BubbleImgTwo" src="https://cdn.shopify.com/s/files/1/0040/3786/9638/files/colegio_tablets.png?v=1610163675">
 
           </img>
-          <a href="https://colegiodelfuturo.com/" target="_blank">
+          <a href="https://colegiodelfuturo.com/" target="_blank" rel="noreferrer">
 
             <div className="LearnButton">
               <h2>Learn More</h2>
@@ -47,7 +47,7 @@ function Mission() {
           <div className="TextBox">
             <h2>We can only do this with your help! <b id="highlight">You can make a difference</b> in a child's life today!</h2>
           </div>
-          {/* <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank">
+          {/* <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank" rel="noreferrer">
 
             <div className="DonateButton">
               <h2>
