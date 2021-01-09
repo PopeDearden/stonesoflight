@@ -51,6 +51,7 @@ $Orange: #E67531;
           justify-content: center;
           background-color: $Dark-Teal;
           color: white;
+          text-align: center;
         }
         .MobileNav{
             // border-right: solid 1px white;
@@ -80,4 +81,17 @@ $Orange: #E67531;
             line-height: 1;
           }
         }
+        .Timeline{
+          main{
+            p{
+              border-image-slice: 0;
+            }
+          }
+        }
+        .Title{
+          h3{
+            max-width: 90vw;
+          }
+        }
+    
 }

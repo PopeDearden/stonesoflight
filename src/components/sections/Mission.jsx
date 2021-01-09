@@ -5,6 +5,9 @@ function Mission() {
   return (
     <div className="Mission">
       <Zoom >
+        <div className="Title">
+          <h2>What We Do</h2>
+        </div>
         <div className="Bubble">
           <img id="BubbleImg" src="https://cdn.shopify.com/s/files/1/0040/3786/9638/files/DSC0093_2.jpg?v=1610162425" alt="Impoverished children need education">
           </img>

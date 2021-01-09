@@ -6,7 +6,7 @@ function Solution() {
   
     <div className="Solution">
           <Zoom>
-      <h1>Here's how you can make a difference!</h1>
+      <h1>Here's how you can help!</h1>
       <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank" rel="noreferrer">
 
 <div className="DonateButton">

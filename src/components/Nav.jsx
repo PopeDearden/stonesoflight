@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.scss'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Nav() {
 
@@ -11,33 +12,112 @@ export default function Nav() {
                     <h1>Stones of Light<br></br> Education Foundation</h1>
                 </div>
                 <div className="Menu">
+                    <Link
+                        to="Mission"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
+                        <div className="NavButton">
+                            <h2>What We Do</h2>
+                        </div>
+                    </Link>
+                    <Link
+                        to="Solution"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={750}
+                    >
                     <div className="NavButton">
-                        <h2>Mission</h2>
+                        <h2>How You Can Help</h2>
                     </div>
+                    </Link>
+                    <Link
+                        to="Impact"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
                     <div className="NavButton">
-                        <h2>Progress</h2>
+                        <h2>Our Progress</h2>
                     </div>
+                    </Link>
+                    <Link
+                        to="Your Impact"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
                     <div className="NavButton">
-                        <h2>Your Impact</h2>
+                        <h2>Contact Us</h2>
                     </div>
+                    </Link>
                     <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank" rel="noreferrer">
-                    <div className="BigDonate">
-                        <h2>Donate</h2>
-                    </div>
+                        <div className="BigDonate">
+                            <h2>Donate</h2>
+                        </div>
                     </a>
                 </div>
             </div>
             <div className="MobileMenu">
-            <div className="MobileNav">
-                <h2>Mission</h2>
+            <Link
+                        to="Mission"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
+                <div className="MobileNav">
+                  <h2>What We Do</h2>
+                </div>
+                </Link>
+                <Link
+                        to="Solution"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
+                <div className="MobileNav">
+                    <h2>How You Can Help</h2>
+                </div>
+                </Link>
+                <Link
+                        to="Impact"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
+                <div className="MobileNav">
+                    <h2>Our Progress</h2>
+                </div>
+                </Link>
+                <Link
+                        to="Mission"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
+                <div className="MobileNav">
+                    <h2>Our Progress</h2>
+                </div>
+                </Link>
+                
             </div>
-            <div className="MobileNav">
-                <h2>Progress</h2>
-            </div>
-            <div className="MobileNav">
-                <h2>Your Impact</h2>
-            </div>
-        </div>
         </div>
     )
 }

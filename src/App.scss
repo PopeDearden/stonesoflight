@@ -94,8 +94,21 @@ input, select {
 }
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$normal-margin: 25px;
+$small-margin: 10px;
+$Huge-font: 50px;
+$Large-Font: 30px;
+$Heading-Font: 25px;
+$Body-Font: 20px;
+$Dark-Teal: #095F79;
+$Green: #4A6C2F;
+$Steel: #2E93B1;
+$Orange: #E67531;
 
 .App{
+  b{
+    color: $Orange;
+  }
   h1,h2,h3,h4,h5,h6{
     font-family: 'Abel', sans-serif;
     line-height: 1.25;
@@ -107,16 +120,6 @@ input, select {
   max-width: 100vw;
   overflow: hidden;
 }
-$normal-margin: 25px;
-$small-margin: 10px;
-$Huge-font: 50px;
-$Large-Font: 30px;
-$Heading-Font: 25px;
-$Body-Font: 20px;
-$Dark-Teal: #095F79;
-$Green: #4A6C2F;
-$Steel: #2E93B1;
-$Orange: #E67531;
 $Hero-Image: 'https://cdn.shopify.com/s/files/1/0040/3786/9638/files/Stones_of_light_website_cover.jpg?v=1610153852';
 // $Hero-Image: 'https://cdn.shopify.com/s/files/1/0040/3786/9638/files/NXL_7927.jpg?v=1592607859';
 @keyframes titleAnimation {
@@ -433,5 +436,27 @@ color: $Dark-Teal;
   cursor: pointer;
   transform: scale(1.03);
   box-shadow: 5px 8px 13px 8px rgba(255,255,255,0.53);
+}
+.Title{
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    font-size: $Huge-font;
+    text-align: center;
+    margin-top: $normal-margin;
+  }
+  h3{
+    max-width: 50vw;
+    font-size: $Large-Font;
+    text-align: center;
+    margin-bottom: $normal-margin;
+  }
+}
+.Impact{
+  display: flex;
+  flex-direction: column;
+  color: $Dark-Teal;
 }
 
