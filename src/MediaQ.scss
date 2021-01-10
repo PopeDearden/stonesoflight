@@ -12,6 +12,9 @@ $Orange: #E67531;
   .Arrow{
     display: none;
   }
+  .Arrow2{
+    display: none;
+  }
     .NavBar {
         // min-width: 100vw;
         // background-color: white;
@@ -52,6 +55,7 @@ $Orange: #E67531;
           background-color: $Dark-Teal;
           color: white;
           text-align: center;
+          flex-wrap: wrap;
         }
         .MobileNav{
             // border-right: solid 1px white;

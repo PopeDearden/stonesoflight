@@ -1,10 +1,11 @@
 import '../App.scss'
 import Hero from './sections/Hero'
 import Mission from './sections/Mission'
-import Problem from './sections/Problem'
+
 import Solution from './sections/Solution'
 import Impact from './sections/Impact'
 import Contact from './sections/Contact'
+import GoodAlways from './GoodAlways'
 
 function Home() {
   return (
@@ -13,8 +14,8 @@ function Home() {
         <Mission id="Mission"/>
         <Solution id="Solution" />
         <Impact id="Impact"/>
+        <GoodAlways id="GoodAlways"/>
         <Contact id="Contact"/>
-        <Problem />
     </div>
   );
 }

@@ -49,6 +49,18 @@ export default function Nav() {
                     </div>
                     </Link>
                     <Link
+                        to="GoodAlways"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
+                    <div className="NavButton">
+                        <h2>Good Always</h2>
+                    </div>
+                    </Link>
+                    <Link
                         to="Contact"
                         activeClass="active"
                         spy={true}
@@ -60,6 +72,7 @@ export default function Nav() {
                         <h2>Contact Us</h2>
                     </div>
                     </Link>
+               
                     <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank" rel="noreferrer">
                         <div className="BigDonate">
                             <h2>Donate</h2>
@@ -105,6 +118,18 @@ export default function Nav() {
                 </div>
                 </Link>
                 <Link
+                        to="GoodAlways"
+                        activeClass="active"
+                        spy={true}
+                        smooth={true}
+                        offset={0}
+                        duration={500}
+                    >
+                <div className="MobileNav">
+                    <h2>Good Always</h2>
+                </div>
+                </Link>
+                <Link
                         to="Contact"
                         activeClass="active"
                         spy={true}
@@ -116,6 +141,7 @@ export default function Nav() {
                     <h2>Contact Us</h2>
                 </div>
                 </Link>
+                
                 
             </div>
         </div>
