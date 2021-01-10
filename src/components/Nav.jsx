@@ -49,7 +49,7 @@ export default function Nav() {
                     </div>
                     </Link>
                     <Link
-                        to="Your Impact"
+                        to="Contact"
                         activeClass="active"
                         spy={true}
                         smooth={true}
@@ -105,7 +105,7 @@ export default function Nav() {
                 </div>
                 </Link>
                 <Link
-                        to="Mission"
+                        to="Contact"
                         activeClass="active"
                         spy={true}
                         smooth={true}
@@ -113,7 +113,7 @@ export default function Nav() {
                         duration={500}
                     >
                 <div className="MobileNav">
-                    <h2>Our Progress</h2>
+                    <h2>Contact Us</h2>
                 </div>
                 </Link>
                 

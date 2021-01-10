@@ -13,7 +13,7 @@ function Home() {
         <Mission id="Mission"/>
         <Solution id="Solution" />
         <Impact id="Impact"/>
-        <Contact />
+        <Contact id="Contact"/>
         <Problem />
     </div>
   );
