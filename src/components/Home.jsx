@@ -9,7 +9,7 @@ import GoodAlways from './GoodAlways'
 
 function Home() {
   return (
-    <div className="App">
+    <div className="Home">
         <Hero />
         <Mission id="Mission"/>
         <Solution id="Solution" />
