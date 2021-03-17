@@ -1,8 +1,10 @@
 import '../../App.scss'
+import Fade from 'react-reveal/Fade';
 
 function Hero() {
   return (
     <div className="Hero">
+      <Fade top>
 
       <div className="HeroAction">
         <h2>
@@ -14,6 +16,7 @@ function Hero() {
         </div>
         </a>
       </div>
+    </Fade>
     </div>
   );
 }
