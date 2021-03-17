@@ -31,7 +31,8 @@ function Solution() {
         <div className="Card">
           <h2>$85</h2>
           <p>Provides a smart phone or tablet for a child to access the education platform for 1 year!</p>
-          <img src="https://cdn.shopify.com/s/files/1/0040/3786/9638/files/kids_looking_at_phone_1.jpg?v=1610224337" alt="Guatemalan Girl Studying"></img>
+          <img src="https://cdn.shopify.com/s/files/1/0040/3786/9638/files/Guatemalan_student_with_tablet.jpg?v=1615942822" alt="Guatemalan Boy with Tablet"></img>
+          {/* <img src="https://cdn.shopify.com/s/files/1/0040/3786/9638/files/kids_looking_at_phone_1.jpg?v=1610224337" alt="Guatemalan Girl Studying"></img> */}
         </div>
         </a>
         <a href="https://checkout.square.site/merchant/WFJDHKBHCFDKF/checkout/3NBHFIZQ4XMHWIJV65M25T54" target="_blank" rel="noreferrer">
